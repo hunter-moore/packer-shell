@@ -1,0 +1,9 @@
+---
+# See full syntax at https://docs.onica.com/projects/runway/en/latest/
+deployments:
+  - modules:
+      - path: vpc.cfn
+      - path: jenkins.cfn
+      - path: img-mgr.cfn
+    regions:
+      - us-west-2
