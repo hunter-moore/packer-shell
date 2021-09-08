@@ -10,7 +10,7 @@ stacks:
       EnvironmentName: ${environment}
       CustomerName: ${customer}
       ApplicationName: img-mgr
-      SshKey: ${ssh_key}
+      SshKey: TonyExamTest
       # https://docs.onica.com/projects/runway/en/stable/cfngin/lookups.html#ssm
       ImageId: ${ssm /common/img-mgr/golden-ami}
       VpcId: ${xref ${customer}-common-vpc::VPC}
